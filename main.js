@@ -7,9 +7,9 @@ function changeImage(direction) {
   currentIndex += direction;
 
   if (currentIndex < 0) {
-    currentIndex = totalImages - 1;  // Ir al final si estamos en el principio
+    currentIndex = totalImages - 1;
   } else if (currentIndex >= totalImages) {
-    currentIndex = 0;  // Volver al principio si estamos al final
+    currentIndex = 0;
   }
 
   const carousel = document.querySelector('.carousel-images');
